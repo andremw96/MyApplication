@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wijaya_pc.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toSMS"
+        android:text="Buat SMS"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnWEB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toWEB"
+        android:text="Buka URL Web"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="105dp"
+        android:layout_below="@+id/btnSMS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnEMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toEMAIL"
+        android:text="Buat Email"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="165dp"
+        android:layout_below="@+id/btnWEB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMAP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toMAP"
+        android:text="Buka Google Map"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="222dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnEMAIL"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toKAMERA"
+        android:text="Buka Kamera"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_below="@+id/btnMAP"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
